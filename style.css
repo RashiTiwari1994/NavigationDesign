@@ -1,0 +1,26 @@
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    height: 36px;
+    line-height: 36px;
+    background-color: black;
+    font-size: 13px;
+}
+li{
+    float: left;
+    border-right: 1px solid orange;
+    color: white;
+}
+a{
+    display: block;
+    padding: 0 28px;
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    background-color: blue;
+}
+.active a{
+    background-color: blue;
+}
