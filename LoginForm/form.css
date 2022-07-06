@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: beige;
+    overflow: hidden;
+    /*With the hidden value, the overflow is clipped, and the rest of the content is hidden.*/
+}
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+    background-color: white;
+    border-radius: 10px;
+}
+.center h1{
+    text-align: center;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid silver;
+}
+    .center form{
+        padding: 0 40px;
+        
+    }
+    input[type="submit"]{
+        width: 40%;
+        height: 20px;
+        background: blue;
+        color: white;
+        border-radius: 25px;
+        font-weight: 700;
+        margin-top: 20px;
+
+    }
+    .textfield label{
+        padding: 20px;
+    }
+    .signup_link{
+        margin-top: 20px;
+    }
+    .textfield {
+        height: 20px;
+        flex: 0 0 200px;
+        padding: 5px;
+    }
